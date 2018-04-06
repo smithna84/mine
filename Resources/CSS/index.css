@@ -1,0 +1,53 @@
+/* Page Style */
+
+body{
+  font-family: Merriweather, serif;
+  font-size:16px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background-color: white;
+}
+
+/* Header and Navigation Style */
+
+header{
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: 8rem;
+  border: 1px solid black;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border: 1px solid pink;
+}
+
+header img{
+  border: 1px solid yellow;
+}
+
+header h1{
+  font-size: 2.5rem;
+  border: 1px solid blue;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  height: 2rem;
+  background-color: #D282A6;
+  border: 1px solid green;
+}
+
+nav a{
+  margin: 0 .5rem;
+  color: navy;
+
+}
